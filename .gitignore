@@ -1,0 +1,8 @@
+var/
+*.o
+*.a
+.idea/
+.DS_Store
+CMakeLists.txt
+log.txt
+build_config.mk

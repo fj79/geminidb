@@ -1,0 +1,4 @@
+#!/bin/sh
+DIR=`S=\`readlink "$0"\`; [ -z "$S" ] && S=$0; dirname $S`
+
+python $DIR/geminidb-cli.py
